@@ -1,0 +1,52 @@
+.calculator{
+    width: 350px;
+    height: 620px;
+    background: #202020;
+    margin: auto;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.display-wrap {
+    width: 100%;
+    height: 186px;
+    color: #fff;
+}
+
+.buttons {
+    width: 344px;
+    height: 430px;
+    background: #d4d5d9;
+    margin: auto;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.buttons>div{
+    width: 84px;
+    height: 65px;
+    float: left;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 19px;
+}
+
+.buttons>div#zero{
+    width: 170px;
+}
+#display {
+    font-size: 70px;
+    float: right;
+    position: relative;
+    top: 100px;
+    padding-right: 10px;
+}
+
+#remove, #invert, #percent{
+    background: #c3c4c6;
+}
+
+#divide, #multiply, #minus, #plus, #equal{
+    background: #f88510;
+    color: #fff;
+}
