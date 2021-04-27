@@ -189,6 +189,7 @@ window.onload = function() {
         }
     }
 
+    //проценты
     percent.onclick = function() {
         result = Number(display.innerHTML)/100;
         outputResult(result);
